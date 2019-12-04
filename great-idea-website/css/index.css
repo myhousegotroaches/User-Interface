@@ -65,8 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.body nav p{
-	display: inline-block;
-	margin: 2px;
-	color: grey;
+*{
+	width-max: 100%;
+}
+
+.help:hover {
+	color: red;
+	margin: 50px;
 }
