@@ -87,44 +87,79 @@ h1, h2, h3, h4, h5 {
 	vertical-align: middle;
 }
 
-.top-section{
-	display: inline-block;
-}
-.second-section img{
-	margin: 0 70%;
-}
-
-.second-section h1, .second-section p{
-	margin-right: 20%;
+.second-section div h1{
+	margin-left: 40%;
+	font-size: 75px;
+	width: 30%;
+	margin-top: 20px;
 
 }
 
-.second-section p{
+.second-section div p{
+	font-size: 25px;
+	border: 2px solid black;
+	width: 40%;
+	padding: 5px;
+	margin-left: 40%;
+
+}
+
+.second-section div p, .second-section div h1{
 	text-align: center;
-	border: 1px 2px 1px 2px solid grey;
-	margin-right: 20%;
-}
-
-.second-section{
-	text-align: 0 10px 20px 0;
+	border: 1px solid black;
 }
 
 .big-logo{
+	display: inline;
+	border: 2px solid black;
+}
+
+.second-section{
 	display: inline-block;
 }
 
-.middle-on-top, .middle-on-top h2, .middle-on-top p,{
-	display: inline;
-	border: 1px solid grey;
-	display: inline;
+.aligned-pic{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 280px;
 }
 
-.help{
-	border: 2px solid grey;
-	margin-right: 40%;
+.title-getstarted{
+	display: inline-block;
+	border: 2px solid blue;
 }
 
-.help-2{
-	border: 2px solid grey;
-	margin-left: 80%;
+.about{
+ 	width: 49%;
+ 	display: inline-block;
+ 	margin: 25px 5px;
+
+}
+
+.features{
+	width: 49%;
+	display: inline-block;
+   }
+
+.middle-pic{
+	 margin-left: 8%;
+	padding: 15px
+   }
+
+.services{
+	border: 2px solid black;
+	width: 30%;
+	display: inline-block;
+   }
+
+.product{
+	border: 2px solid black;
+	width: 30%;
+	display: inline-block;
+}
+
+.vision{
+	border: 2px solid black;
+	width: 30%;
+	display: inline-block;
 }
