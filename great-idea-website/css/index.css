@@ -81,6 +81,11 @@ h1, h2, h3, h4, h5 {
 	margin: 0 70%;
 }
 
-.second-section h1{
+.second-section h1, .second-section p{
 	margin-left: 35%;
+
+}
+
+.second-section{
+	text-align: 0 10px 20px 0;
 }
