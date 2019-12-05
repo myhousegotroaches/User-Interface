@@ -63,3 +63,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	max-width: 100%;
+}
+
+.top-section{
+	text-align: center;
+}
+
+.top-section a{
+	margin: 0 75px;
+	font-size: 20px;
+}
+
+.second-section img{
+	margin: 0 70%;
+}
+
+.second-section h1{
+	margin-left: 35%;
+}
