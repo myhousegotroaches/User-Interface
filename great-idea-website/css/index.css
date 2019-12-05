@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +63,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	max-width: 100%;
+}
+
+.mainContainer{
+	border: 1px solid black;
+	margin: 1% 20% 5% 20%;
+	padding: 15px;
+}
+
+.top-section a{
+	margin: 0 30px;
+	font-size: 20px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo{
+	margin-left: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.second-section div h1{
+	margin-left: 40%;
+	font-size: 75px;
+	width: 30%;
+	margin-top: 20px;
+
+}
+
+.second-section div p{
+	font-size: 25px;
+	width: 60%;
+	padding: 5px;
+	margin-left: 40%;
+	border: 2px solid black;
+
+}
+
+.second-section div p, .second-section div h1{
+	text-align: center;
+}
+
+.big-logo{
+	display: inline;
+}
+
+.second-section{
+	display: inline-block;
+	padding-bottom: 25px;
+}
+
+.aligned-pic{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 280px;
+}
+
+.title-getstarted{
+	display: inline-block;
+}
+
+.about{
+ 	width: 49%;
+ 	display: inline-block;
+ 	margin: 25px 5px;
+
+}
+
+.features{
+	width: 49%;
+	display: inline-block;
+   }
+
+.middle-pic{
+	 margin-left: 8%;
+	padding: 15px
+   }
+
+.services{
+	width: 30%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 15px;
+   }
+
+.product{
+	width: 30%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+.vision{
+	width: 30%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+footer{
+	margin-top: 35px;
+}
+
+.copyright{
+	text-align: center;
+}
