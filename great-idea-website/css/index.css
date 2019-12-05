@@ -68,24 +68,63 @@ h1, h2, h3, h4, h5 {
 	max-width: 100%;
 }
 
-.top-section{
-	text-align: center;
+.mainContainer{
+	border: 1px solid black;
+	margin: 1% 20% 5% 20%;
+	padding: 15px;
 }
 
 .top-section a{
-	margin: 0 75px;
+	margin: 0 30px;
 	font-size: 20px;
+	color: grey;
+	text-decoration: none;
 }
 
+.logo{
+	margin-left: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.top-section{
+	display: inline-block;
+}
 .second-section img{
 	margin: 0 70%;
 }
 
 .second-section h1, .second-section p{
-	margin-left: 35%;
+	margin-right: 20%;
 
+}
+
+.second-section p{
+	text-align: center;
+	border: 1px 2px 1px 2px solid grey;
+	margin-right: 20%;
 }
 
 .second-section{
 	text-align: 0 10px 20px 0;
+}
+
+.big-logo{
+	display: inline-block;
+}
+
+.middle-on-top, .middle-on-top h2, .middle-on-top p,{
+	display: inline;
+	border: 1px solid grey;
+	display: inline;
+}
+
+.help{
+	border: 2px solid grey;
+	margin-right: 40%;
+}
+
+.help-2{
+	border: 2px solid grey;
+	margin-left: 80%;
 }
