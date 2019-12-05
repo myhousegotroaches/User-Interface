@@ -97,25 +97,24 @@ h1, h2, h3, h4, h5 {
 
 .second-section div p{
 	font-size: 25px;
-	border: 2px solid black;
-	width: 40%;
+	width: 60%;
 	padding: 5px;
 	margin-left: 40%;
+	border: 2px solid black;
 
 }
 
 .second-section div p, .second-section div h1{
 	text-align: center;
-	border: 1px solid black;
 }
 
 .big-logo{
 	display: inline;
-	border: 2px solid black;
 }
 
 .second-section{
 	display: inline-block;
+	padding-bottom: 25px;
 }
 
 .aligned-pic{
@@ -126,7 +125,6 @@ h1, h2, h3, h4, h5 {
 
 .title-getstarted{
 	display: inline-block;
-	border: 2px solid blue;
 }
 
 .about{
@@ -147,19 +145,30 @@ h1, h2, h3, h4, h5 {
    }
 
 .services{
-	border: 2px solid black;
 	width: 30%;
 	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 15px;
    }
 
 .product{
-	border: 2px solid black;
 	width: 30%;
 	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 15px;
 }
 
 .vision{
-	border: 2px solid black;
 	width: 30%;
 	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+footer{
+	margin-top: 35px;
+}
+
+.copyright{
+	text-align: center;
 }
